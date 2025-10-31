@@ -1,5 +1,5 @@
-brute
 
+```
 import java.util.*;
  class Main {
     public static void main(String[] args){
@@ -9,10 +9,12 @@ import java.util.*;
         System.out.println(result[0]);
          System.out.println(result[1]);
     }
+  
     public static int[] getSecondOrderElements(int n, int []a) {
         Arrays.sort(a);
         int s = a[1];
        int l = a[n-2];
        return new int[]{l,s};
+       
     }
 }
